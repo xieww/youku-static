@@ -7,22 +7,22 @@ div {
 }
 .topbars {
     height: 90px;
-    background: #e8e8e8;
+    /* background: #e8e8e8; */
     width: 100%;
     position: relative;
 }
 .topbars .logo {
     height: 40px;
-    background: #6F3;
+    /* background: #6F3; */
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 150;
+    z-index: 1290;
 }
 .topbars .search {
     height: 50px;
-    background: #00b38a;
+    /* background: #00b38a; */
     z-index: 1;
     position: absolute;
     left: 0;
@@ -34,6 +34,10 @@ div {
 }
 .logo .logos {
     float: left;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    overflow: hidden;
 }
 a {
     cursor: pointer;
@@ -42,4 +46,19 @@ a {
 }
 a:visited {
     color: #555;
+}
+.logo .logos a {
+    display: block;
+    width: 120px;
+    height: 26px;
+}
+/* .logo .logos a .youkulogo {
+    background: transparent url(https://www.youku.com/index/img/mheader/yklogo.png) no-repeat;
+    background-size: 120px 30px;
+} */
+.logo .denglu {
+    z-index: 1050;
+    position: relative;
+    float: right;
+    height: 100%;
 }
