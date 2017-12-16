@@ -32,3 +32,14 @@ div {
     width: 100%;
     box-sizing: border-box;
 }
+.logo .logos {
+    float: left;
+}
+a {
+    cursor: pointer;
+    color: #555;
+    text-decoration: none;
+}
+a:visited {
+    color: #555;
+}
