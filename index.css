@@ -8,12 +8,27 @@ div {
 .topbars {
     height: 90px;
     background: #e8e8e8;
+    width: 100%;
+    position: relative;
 }
 .topbars .logo {
     height: 40px;
     background: #6F3;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 150;
 }
 .topbars .search {
     height: 50px;
     background: #00b38a;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
 }
