@@ -1,4 +1,4 @@
-div {
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, select, option, textarea, p, blockquote, th, td {
     padding: 0;
     margin: 0;
     font: 12px/20px "Microsoft YaHei", SimHei, helvetica, arial, verdana, tahoma, sans-serif;
@@ -175,7 +175,6 @@ a:visited {
     border-radius: 0;
     border: 1px solid #1a67cb;
     background-color: #2e8ee2;
-    /* background-image: linear-gradient(#47a4f4, #2e8ee2 7%, #2e8ee2); */
     background-repeat: no-repeat;
     color: #fff;
     padding: 0;
@@ -192,5 +191,55 @@ a:visited {
     height: 16px;
     background-position: 0 -120px;
     background-size: 96px 144px;
-
+}
+.menu_list {
+    padding: 0;;
+    overflow: hidden;
+    position: relative;
+    min-width: 300px;
+    max-width: 984px;
+    margin: 0 auto;
+    left: 10px;
+}
+.menu_list .list_1 {
+    width: 100%;
+    height: 46px;
+    border-bottom: 3px solid #e6e6e6;
+    backface-visibility: hidden;
+}
+.menu_list .list_1 ul {
+    width: 1564px;
+    height: 42px;
+    margin: 0;
+    padding: 7px 0 0 0;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    list-style: none; 
+}
+.menu_list .list_1 ul li {
+    float: left;
+    position: relative;
+    top: 3px;
+    height: 39px;
+    line-height: 20px;
+    margin-right: 32px;
+    white-space: nowrap;
+}
+.menu_list .list_1 ul li a {
+    display: inline-block;
+    padding: 8px 0;
+    font-size: 18px;
+    font-family: "Microsoft YaHei", SimHei, helvetica, arial, verdana, tahoma, sans-serif;
+}
+.menu_list .list_1 ul li a:hover,.menu_list .list_1 ul li.indexs a {
+    color: #C31;
+    border-bottom: 3px solid #06a7e1;
+}
+.contents {
+    padding: 20px 10px;
+    min-width: 300px;
+    max-width: 984px;
+    margin: 0 auto;
+    width: 100%;
 }
