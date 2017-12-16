@@ -13,7 +13,7 @@ div {
 }
 .topbars .logo {
     height: 40px;
-    /* background: #6F3; */
+    background: #f6f6f6;
     position: fixed;
     left: 0;
     top: 0;
@@ -61,4 +61,81 @@ a:visited {
     position: relative;
     float: right;
     height: 100%;
+    min-width: 24px;
+    padding: 0 10px;
+    text-align: center;
+}
+.logo .denglu .ico_user {
+    width: 16px;
+    height: 16px;
+    margin-top: 3px;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background: transparent url(https://www.youku.com/index/img/mheader/mheader.png) no-repeat;
+    background-position: 0 -24px;
+    background-size: 96px 144px;
+}
+.logo .denglu .submits {
+    display: block;
+    line-height: 16px;
+    color: #555;
+}
+.logo .search_img {
+    float: right;
+    height: 100%;
+    z-index: 1050;
+    position: relative;
+    min-width: 24px;
+    padding: 0 10px;
+    text-align: center;
+}
+.logo .search_img .ico_so {
+    margin: -3px 5px 0 0;
+    background: transparent url(https://www.youku.com/index/img/mheader/mheader.png) no-repeat;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background-position: -24px 0;
+    background-size: 96px 144px;
+}
+.logo .search_img .soo {
+    display: block;
+    line-height: 16px;
+    font-size: 12px;
+    color: #555;
+}
+.logo .tabs {
+    z-index: 1051;
+    position: absolute;
+    top: 0px;
+    left: 134px;
+    overflow: hidden;
+    cursor: pointer;
+    min-width: 24px;
+    height: 40px;
+    padding: 0 10px;
+    text-align: center;
+}
+.logo .tabs .ico_menu {
+    margin-top: 3px;
+    background-size: 96px 144px;
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background: transparent url(https://www.youku.com/index/img/mheader/mheader.png) no-repeat;
+}
+.logo .tabs .pingdao {
+    display: block;
+    line-height: 16px;
+    font-size: 12px;
+    color: #555;
 }
