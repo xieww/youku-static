@@ -450,10 +450,11 @@ i {
 .contents .con_list_2 .tv_lists {
     position: relative;
     z-index: 1;
-    width: 50%;
+    width: 48%;
     float: left;
     box-sizing: border-box;
-    padding-right: 10px;
+    /* padding-right: 15px; */
+    padding-bottom: 20px;
     /* background: #999; */
 }
 .contents .con_list_2 .tv_lists .list_img {
@@ -473,7 +474,8 @@ i {
 .contents .con_list_2 .tv_lists .list_desc .v_progress {
     position: relative;
     z-index: 5;
-    margin: -25px 0 1px;
+    margin: -25px 0 -20px;
+    
 }
 .contents .con_list_2 .tv_lists .list_desc .v_progress .v_status {
     color: #999;
@@ -490,8 +492,27 @@ i {
 .contents .con_list_2 .tv_lists .list_desc .v_progress .v_status:after  {
     clear: both;
 }
-.contents .con_list_2 .tv_lists .list_desc .v_progress 。v_title {
+.contents .con_list_2 .tv_lists .list_desc .v_title {
     height: 20px;
     font-size: 14px;
     color: #555;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.contents .con_list_2 .tv_lists .list_desc .v_desc {
+    height: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #909090;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.contents .con_list_2 .tv_cen {
+    float: left;
+    width: 4%;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    padding-bottom: 20px;
 }
