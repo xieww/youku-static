@@ -425,3 +425,22 @@ i {
     height: 12px;
     background-position: -60px 0;
 }
+.contents .con_list_2 {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.contents .con_list_2 .con_list_2_title {
+    position: relative;
+    height: 50px;
+    line-height: 35px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    font-size: 26px;
+    color: #909090;
+    display: inline-block;
+    vertical-align: bottom;
+    font-family: "Microsoft YaHei", SimHei, helvetica, arial, verdana, tahoma, sans-serif;
+}
+.contents .con_list_2 .con_list_2_title .titles .links_title {
+    color: #909090;
+}
