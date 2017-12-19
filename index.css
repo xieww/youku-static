@@ -341,7 +341,7 @@ i {
 }
 .con_list_1 .lists_v {
     float: left;
-    width: 50%;
+    width: 48%;
     /* height: 165px; */
     padding-left: 0px;
     /* padding-right: 15px; */
@@ -508,7 +508,7 @@ i {
     white-space: nowrap;
     text-overflow: ellipsis
 }
-.contents .con_list_2 .tv_cen {
+.contents .con_list_1 .tv_cen,.contents .con_list_2 .tv_cen {
     float: left;
     width: 4%;
     position: relative;
