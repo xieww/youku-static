@@ -516,3 +516,33 @@ i {
     box-sizing: border-box;
     padding-bottom: 20px;
 }
+.contents .con_list_2 .tv_lists .tags {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contents .con_list_2 .tv_lists .tags .ico-ismember {
+    display: block;
+    /* vertical-align: middle; */
+    background: transparent url(https://www.youku.com/index/img/mobile/yk.png) no-repeat;
+    width: 44px;
+    height: 44px;
+    background-position: -60px -60px;
+}
+.contents .con_list_2 .tv_lists .tagNum {
+    z-index: 3;
+    position: absolute;
+    bottom: 4.5rem;
+    right: 5px;
+}
+.contents .con_list_2 .tv_lists .tagNum .rate {
+    font-size: 12px;
+    font-family: "Microsoft YaHei", SimHei, helvetica, arial, verdana, tahoma, sans-serif;
+    color: #ff2020;
+}
+.contents .con_list_2 .tv_lists .tagNum .rate em {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+}
