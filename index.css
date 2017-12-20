@@ -339,12 +339,10 @@ i {
     height: 12px;
     background-position: -60px 0;
 }
-.con_list_1 .lists_v {
+.con_list_1 .lists_v ,.con_list_2 .lists_v{
     float: left;
     width: 48%;
-    /* height: 165px; */
     padding-left: 0px;
-    /* padding-right: 15px; */
     padding-bottom: 15px;
     box-sizing: border-box;
 
