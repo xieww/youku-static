@@ -241,7 +241,7 @@ a:visited {
     border-bottom: 3px solid #06a7e1;
 }
 .contents {
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px 40px 10px;
     min-width: 300px;
     max-width: 984px;
     margin: 0 auto;
@@ -249,6 +249,11 @@ a:visited {
 }
 .contents .div1 {
     padding-right: 20px;
+    /* background: green; */
+    padding-bottom: 180px;
+}
+.contents:after {
+    clear: both;
 }
 .contents .lists_large {
     float: none;
@@ -544,4 +549,169 @@ i {
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
+}
+.bottom_bars {
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    background: rgba(255,255,255,1);
+    font-size: 12px;
+    border-bottom: 1px solid #ebebeb;
+    /* background: red; */
+    display: block;
+    bottom: 0;
+}
+.bottom_bars .bot_1 {
+    position: relative;
+    overflow: hidden;
+    height: 45px;
+    width: 100%;
+    display: -webkit-box;
+    left: 0px;
+    cursor: default;
+}
+/* .bot_close {
+    width: 8%;
+    height: 100%;
+    margin: 0;
+    background: url(./image/close.png) 0 0 no-repeat;
+    background-size: 12px 12px;
+    background-position: 50%;
+    z-index: 8;
+} */
+.close {
+    display: block;
+    width: 8%;
+    height: 100%;
+    margin: 0;
+    background-size: 12px 12px;
+    background-position: 50%;
+    z-index: 8;
+}
+.bottom_bars .bot_1 .bot_bodys {
+    height: 45px;
+    width: 92%;
+    z-index: 1;
+    margin: 0;
+    display: -webkit-box;
+}
+.bottom_bars .bot_1 .bot_bodys .bot_bodys1 {
+    max-height: 35px;
+    width: 100%;
+    margin: 5px 0px;
+    align-items: center;
+}
+.bottom_bars .bot_1 .bot_bodys .bot_bodys1 .bot_img {
+    max-height: 35px;
+    display: block;
+    float: left;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+.bot_text {
+    color: #000;
+    padding-left: 10px;
+    width: 198px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    display: -webkit-box;
+    position: relative;
+    top: 10px;
+    display: block;
+    float: left;
+}
+.bot_open {
+    /* float: left; */
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 44px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #2692ff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.contents .sidebar {
+    right: 10px;
+    bottom: 60px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+}
+.sidebar ul {
+    list-style: none;
+    margin-left: 16px;
+}
+.sidebar li {
+    margin-bottom: 1px;
+}
+.sidebar li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.5);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+}
+a {
+    cursor: pointer;
+    color: #555;
+    text-decoration: none;
+}
+.ico-gotop {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background: transparent url("https://www.youku.com/index/img/mobile/sidebar.png") no-repeat;
+    width: 24px;
+    height: 26px;
+    margin-top: 13px;
+    background-position: 0 0;
+}
+.ico-user {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background: transparent url("https://www.youku.com/index/img/mobile/sidebar.png") no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-top: 12px;
+    background-position: 0 -100px;
+}
+.ico-feedback {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background: transparent url("https://www.youku.com/index/img/mobile/sidebar.png") no-repeat;
+    width: 22px;
+    height: 24px;
+    background-position: 0 -40px;
+}
+.sidebar li span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Microsoft YaHei", SimHei, helvetica, arial, verdana, tahoma, sans-serif;
+    color: #fff;
 }
