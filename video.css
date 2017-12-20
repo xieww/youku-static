@@ -1,0 +1,335 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, button, select, option, textarea, p, blockquote, th, td {
+    padding: 0;
+    margin: 0;
+    font: 12px/20px "Microsoft YaHei", SimHei, helvetica, arial, verdana, tahoma, sans-serif;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+html * {
+    -webkit-text-size-adjust: none;
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+}
+html * {
+    outline: 0;
+}
+.topBar {
+    height: 44px;
+    width: 100%;
+    position: fixed;
+    z-index: 8;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid #e6e6e6;
+    background: #fff;
+}
+.tBar .menu_icon {
+    width: 22px;
+    height: 20px;
+    background-position: 0 -32px;
+    left: 10px;
+}
+.tBar .logo_icon {
+    background-position: 0 0;
+    margin: 0 auto;
+    width: 86px;
+    height: 17px;
+    left: 40%;
+}
+
+.tBar .search_icon {
+    width: 22px;
+    height: 20px;
+    background-position: 0 -58px;
+    right: 46px;
+}
+.tBar .per_icon {
+    width: 22px;
+    height: 20px;
+    background-position: 0 -86px;
+    right: 10px;
+}
+.tBar [class*=_icon] {
+    display: block;
+    position: absolute;
+    top: 13px;
+}
+[class*=_icon] {
+    background: url(./image/bglogo.png);
+    background-size: 375px 200px;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+.bottom_bars {
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    background: rgba(255,255,255,1);
+    font-size: 12px;
+    border-bottom: 1px solid #ebebeb;
+    display: block;
+    top: 45px;
+}
+.bottom_bars .bot_1 {
+    position: relative;
+    overflow: hidden;
+    height: 45px;
+    width: 100%;
+    display: -webkit-box;
+    left: 0px;
+    cursor: default;
+}
+.bot_close {
+    width: 8%;
+    height: 100%;
+    margin: 0;
+    background: url(./image/close.png) 0 0 no-repeat;
+    background-size: 12px 12px;
+    background-position: 50%;
+    z-index: 8;
+}
+.bottom_bars .bot_1 .bot_bodys {
+    height: 45px;
+    width: 92%;
+    z-index: 1;
+    margin: 0;
+    display: -webkit-box;
+}
+.bottom_bars .bot_1 .bot_bodys .bot_bodys1 {
+    max-height: 35px;
+    width: 100%;
+    margin: 5px 0px;
+    align-items: center;
+}
+.bottom_bars .bot_1 .bot_bodys .bot_bodys1 .bot_img {
+    max-height: 35px;
+    display: block;
+    float: left;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+.bot_text {
+    color: #000;
+    padding-left: 10px;
+    width: 198px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    display: -webkit-box;
+    position: relative;
+    top: 10px;
+    display: block;
+    float: left;
+}
+.bot_open {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 44px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    background-color: #2692ff;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.playerBox {
+    margin-top: 45px;
+    width: 375px;
+    height: 210.938px;
+    background: #000;
+}
+.players {
+    width: 100%;
+    height: 100%;
+}
+.playerBox .players .players_1 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #000;
+    overflow: hidden;
+}
+.players_1 .tv_title {
+    height: 30px;
+    position: relative;
+    top: 46px;
+    padding: 0 10px;
+    z-index: 10;
+    color: #bbb;
+    font-size: 14px;
+    line-height: 30px;
+    overflow: hidden;
+}
+.players_1 .tv_image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    top: 15px;
+    background: red;
+}
+.players_1 .tv_image img {
+    width: 100%;
+    height: 100%;
+}
+.players_1 .player_button {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 85;
+}
+.players_1 .player_button .playBt {
+    width: 63px;
+    height: 63px;
+    position: relative;
+    left: 0;
+    top: 50%;
+    margin: -18px auto;   
+    background: url(https://static.youku.com/h5/player/res/img/new_player_icons.png) no-repeat;
+    background-position: -201px 1px;
+    background-size: 375px 100px;
+}
+.tv_link {
+    border: 1px solid #2692ff;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px 10px 0 ;
+    border-radius: 50px;
+}
+.tv_link a {
+    width: 100%;
+    height: 40px;
+    color: #2692ff;
+    font-size: 15px;
+}
+.tv_desc {
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+}
+.tv_desc .tv_info {
+    position: relative;
+    padding: 18px 0 13px;
+    overflow: hidden;
+}
+.tv_desc .tv_info .tvinfo_top {
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+.tv_desc .tv_info .tvinfo_top .fname {
+    float: left;
+    width: 93%;
+    padding-left: 10px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 1px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.tv_desc .tv_info .tvinfo_top .fname span {
+    width: 90%;
+    background: 0 0;
+    padding: 1px 4px;
+    color: #333;
+    font-size: 1pc;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: inline-block;
+    height: 1pc;
+    line-height: 1pc;
+    border-radius: 3px;
+}
+.tv_desc .tv_info .tvinfo_top .fsel {
+    top: 24px;
+    right: 9pt;
+    width: 11px;
+    height: 6px;
+    background: url(https://g.alicdn.com/ku/video-page/static/img/gather.3057625.png) 0 0 no-repeat;
+    background-size: 150px 500px;
+    background-position: 0 0;
+    overflow: hidden;
+    position: absolute;
+}
+.tv_desc .tv_info .tvinfo_bot {
+    padding-left: 10px;
+    display: inline-block;
+    font-size: 14px;
+    color: #999;
+}
+.tv_desc .tv_warp {
+    overflow: hidden;
+    padding: 10px 10px 15px;
+}
+.tv_desc .tv_warp .tv_left {
+    float: left;
+}
+.tv_desc .tv_warp .tv_left a {
+    color: #333;
+    font-weight: 700;
+    position: relative;
+    top: 2px;
+    width: 32px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+.tv_desc .tv_warp .tv_left .tv_sel {
+    position: relative;
+    top: -9px;
+    right: -38px;
+    /* left: 46px;
+    bottom: 20px; */
+    width: 11px;
+    height: 6px;
+    background: url(https://g.alicdn.com/ku/video-page/static/img/gather.3057625.png) 0 0 no-repeat;
+    background-size: 150px 500px;
+    background-position: 0 0;
+    overflow: hidden;
+}
+.tv_desc .tv_right {
+    float: right;
+}
+.tv_desc .tv_right a {
+    height: 23px;
+    position: relative;
+    margin-left: 26px;
+    margin-right: 5px;
+    display: inline-block;
+    color: #333;
+    font-weight: 700;
+    background: url(https://g.alicdn.com/ku/video-page/static/img/gather.3057625.png) 0 0 no-repeat;
+    background-size: 150px 500px;
+}
+.tv_desc .tv_right .download {
+    background-position: 0 -17px;
+    width: 24px;
+    top: 0;
+}
+.tv_desc .tv_right .collect {
+    width: 23px;
+    top: 1px;
+    background-position: 0 -48px;
+}
+.tv_desc .tv_right .share {
+    background-position: 0 -82px;
+    width: 24px;
+    top: 0;
+}

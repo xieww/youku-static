@@ -559,7 +559,6 @@ i {
     background: rgba(255,255,255,1);
     font-size: 12px;
     border-bottom: 1px solid #ebebeb;
-    /* background: red; */
     display: block;
     bottom: 0;
 }
@@ -572,7 +571,7 @@ i {
     left: 0px;
     cursor: default;
 }
-/* .bot_close {
+.bot_close {
     width: 8%;
     height: 100%;
     margin: 0;
@@ -580,16 +579,8 @@ i {
     background-size: 12px 12px;
     background-position: 50%;
     z-index: 8;
-} */
-.close {
-    display: block;
-    width: 8%;
-    height: 100%;
-    margin: 0;
-    background-size: 12px 12px;
-    background-position: 50%;
-    z-index: 8;
 }
+
 .bottom_bars .bot_1 .bot_bodys {
     height: 45px;
     width: 92%;
