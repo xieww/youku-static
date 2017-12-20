@@ -386,6 +386,7 @@ i {
     font-size: 14px;
     font-family: "Microsoft YaHei", SimHei, helvetica, arial, verdana, tahoma, sans-serif;
     color: #555;
+    text-overflow: ellipsis;
 }
 .lists_v  .title_desc .titles a {
     color: #555;
